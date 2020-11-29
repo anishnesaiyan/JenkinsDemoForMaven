@@ -20,6 +20,7 @@ public class LeafTaps {
 		driver.findElementById("password").sendKeys("crmsfa");
 		driver.findElementByClassName("decorativeSubmit").click();
 		driver.findElementByClassName("decorativeSubmit").click();
+		driver.close();
 	}
 
 }
